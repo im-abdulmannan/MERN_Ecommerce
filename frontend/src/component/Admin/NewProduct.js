@@ -1,7 +1,7 @@
 import React, { Fragment, useEffect } from "react";
 import MetaData from "../layout/MetaData";
 import Sidebar from "./Sidebar";
-import './NewProduct.css'
+import "./NewProduct.css";
 import SpellcheckIcon from "@mui/icons-material/Spellcheck";
 import AttachMoneyIcon from "@mui/icons-material/AttachMoney";
 import DescriptionIcon from "@mui/icons-material/Description";
@@ -32,13 +32,13 @@ const NewProduct = () => {
 
   const categories = [
     "Laptop",
-    "Footwear",
-    "Bottom",
-    "Tops",
-    "Attire",
-    "Camera",
-    "SmartPhones",
-    "Mobile.",
+    "Smart Watches",
+    "Smart Accessories",
+    "Computer Accessories",
+    "Cards",
+    "Cameras",
+    "Mobile Accessories",
+    "Smart Phones",
   ];
 
   useEffect(() => {
